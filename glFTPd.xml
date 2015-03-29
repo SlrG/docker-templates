@@ -23,7 +23,7 @@
 	[b]Tip:[/b] The default username is glftpd and the default password is glftpd.
   </Description>
   <Registry>https://registry.hub.docker.com/u/slrgde/glftpd/</Registry>
-  <GitHub>https://github.com/SlrG/glftpd</GitHub>
+  <GitHub>https://github.com/SlrG/docker-containers/glftpd</GitHub>
   <Repository>slrgde/glftpd</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
