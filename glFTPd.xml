@@ -26,9 +26,10 @@
   <GitHub>https://github.com/SlrG/docker-containers/glftpd</GitHub>
   <Repository>slrgde/glftpd</Repository>
   <BindTime>true</BindTime>
-  <Privileged>false</Privileged>
+  <Privileged>true</Privileged>
   <Networking>
     <Mode>host</Mode>
+    <Publish/>
   </Networking>
   <Environment/>
   <Data>
