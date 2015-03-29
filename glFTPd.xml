@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+	<Name>glFTPd</Name>
+	<Description>
+	glFTPd is a free FTP server for UNIX based systems. It is highly configurable and its possibilities are endless. One of the main differences between many other ftp servers and glFTPd is that it has its own user database which can be completely maintained online using ftp site commands. glFTPd runs within a chroot environment which makes it relatively safe.
+
+	glFTPd has numerous features making many complex and complicated setups possible. A number of the most important features are:
+	[ul]
+	[li]Virtual users and groups[/li]
+	[li]Bandwidth throttling (global and per user)[/li]
+	[li]Upload/Download ratio support[/li]
+	[li]On the fly CRC calculating of files being uploaded[/li]
+	[li]Script support on almost all commands and operations[/li]
+	[li]Online user management (add/remove/edit users using site commands)[/li]
+	[li]Built-in statistics viewable using site commands[/li]
+	[li]Encryption support through TLS/SSL integration[/li]
+	[li]ACL Support[/li]
+	[li]Many more ...[/li]
+	[/ul]
+
+	[b][span style='color: #E80000;']Directions:[/span][/b][br]
+	[b]/glftpd[/b] : in this path the glftpd files will be stored.[br]
+	[b]Tip:[/b] The default username is glftpd and the default password is glftpd.
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/slrgde/glftpd/</Registry>
+  <GitHub>https://github.com/SlrG/glftpd</GitHub>
+  <Repository>gfjardim/nzbget</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>host</Mode>
+  </Networking>
+  <Environment/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/glftpd</HostDir>
+      <ContainerDir>/glftpd</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Banner>http://www.sdevel.de/docker/glftpd/glftpd_banner.png</Banner>
+  <Icon>http://www.sdevel.de/docker/glftpd/glftpd_icon.png</Icon>
+</Container>
