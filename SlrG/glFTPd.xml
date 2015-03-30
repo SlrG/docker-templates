@@ -2,7 +2,7 @@
 <Container>
 	<Name>glFTPd</Name>
 	<Description>
-	glFTPd is a free FTP server for UNIX based systems. It is highly configurable and its possibilities are endless. One of the main differences between many other ftp servers and glFTPd is that it has its own user database which can be completely maintained online using ftp site commands. glFTPd runs within a chroot environment which makes it relatively safe.
+	glFTPd is a free FTP server for UNIX based systems. It is highly configurable and its possibilities are endless. One of the main differences between many other ftp servers and glFTPd is that it has its own user database which can be completely maintained online using ftp site commands.
 
 	glFTPd has numerous features making many complex and complicated setups possible. A number of the most important features are:
 	[ul]
@@ -20,7 +20,11 @@
 
 	[b][span style='color: #E80000;']Directions:[/span][/b][br]
 	[b]/glftpd[/b] : in this path the glftpd files will be stored.[br]
-	[b]Tip:[/b] The default username is glftpd and the default password is glftpd.
+	[b]Tip:[/b] The default username is glftpd and the default password is glftpd.[br][br]
+
+	[b][span style='color: #E80000;']Warning!:[/span][/b][br]
+	Before connecting glFTPd to the internet please create a new admin user and remove
+	the default glftpd one.
   </Description>
   <Registry>https://registry.hub.docker.com/u/slrgde/glftpd/</Registry>
   <GitHub>https://github.com/SlrG/docker-containers/glftpd</GitHub>
