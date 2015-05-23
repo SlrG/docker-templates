@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Name>glFTPd</Name>
+  <Beta>False</Beta>
+  <Category>Network:FTP</Category>
   <Description>
 	glFTPd is a free FTP server for UNIX based systems. It is highly configurable and its possibilities are endless. One of the main differences between many other ftp servers and glFTPd is that it has its own user database which can be completely maintained online using ftp site commands.
 
