@@ -50,4 +50,7 @@
   </Data>
   <Banner>http://www.sdevel.de/docker/glftpd/glftpd_banner.png</Banner>
   <Icon>http://www.sdevel.de/docker/glftpd/glftpd_icon.png</Icon>
+  <DonateText>Support the container?</DonateText>
+  <DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=XSNX34FCFP46J</DonateLink>
+  <DonateImg>https://raw.githubusercontent.com/SlrG/unRAID/master/AppSupport/ProFTPd/paypal.gif</DonateImg>
 </Container>
